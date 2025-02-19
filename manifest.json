@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "block-pwa",
+  "version": "0",
+  "description": "Block PWA",
+  "icons": {
+    "128": "128.png"
+  },
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "0",
+      "path": "0.json",
+      "enabled": true
+    }]
+  },
+  "action": {}
+}
