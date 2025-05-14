@@ -9,7 +9,7 @@
       "resourceTypes": ["other"],
       "requestMethods": ["get"],
       "domainType": "firstParty",
-      "urlFilter": "(?:\\.webmanifest|/manifest\\.json)$"
+      "regexFilter": "(?:\\.webmanifest|/manifest\\.json)$"
     }
   }
 ]
