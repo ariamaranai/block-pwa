@@ -9,7 +9,20 @@
       "resourceTypes": ["other"],
       "requestMethods": ["get"],
       "domainType": "firstParty",
-      "regexFilter": "(?:\\.webmanifest|/manifest\\.json)$"
+      "urlFilter": ".webmanifest|"
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1599999998,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "resourceTypes": ["other"],
+      "requestMethods": ["get"],
+      "domainType": "firstParty",
+      "urlFilter": "/manifest.json|"
     }
   }
 ]
