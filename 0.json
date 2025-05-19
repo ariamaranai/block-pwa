@@ -9,7 +9,8 @@
       "resourceTypes": ["other"],
       "requestMethods": ["get"],
       "domainType": "firstParty",
-      "urlFilter": "webmanifest|"
+      "urlFilter": "webmanifest|",
+      "isUrlFilterCaseSensitive": true
     }
   },
   {
@@ -22,7 +23,8 @@
       "resourceTypes": ["other"],
       "requestMethods": ["get"],
       "domainType": "firstParty",
-      "urlFilter": "manifest.json|"
+      "urlFilter": "manifest.json|",
+      "isUrlFilterCaseSensitive": true
     }
   }
 ]
